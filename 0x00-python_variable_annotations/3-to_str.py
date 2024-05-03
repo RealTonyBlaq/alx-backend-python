@@ -8,3 +8,4 @@ representation of the float
 
 def to_str(n: float) -> str:
     """ Returns the string rep of the float arg """
+    return str()
