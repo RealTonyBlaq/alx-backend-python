@@ -5,4 +5,5 @@ float n as argument and returns the floor of the float
 """
 
 
-def 
+def floor(n: float) -> int:
+    """ Returns """
