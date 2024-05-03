@@ -8,5 +8,5 @@ from typing import List
 
 
 def sum_mixed_list(mxd_lst: List[int, float]) -> float:
-    """ Returs the sum of list values """
-    return sum()
+    """ Returns the sum of list values """
+    return float(sum(mxd_lst))
