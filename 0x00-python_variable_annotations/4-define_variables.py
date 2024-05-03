@@ -3,4 +3,5 @@
 
 a: int = 1
 pi: float = 3.14
-i_understand_annotations
+i_understand_annotations: float = True
+school: str = ""
