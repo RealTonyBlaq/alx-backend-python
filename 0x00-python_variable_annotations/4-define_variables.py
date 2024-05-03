@@ -2,4 +2,5 @@
 """ Annotate the variables """
 
 a: int = 1
-pi: 
+pi: float = 3.14
+i_understand_annotations
