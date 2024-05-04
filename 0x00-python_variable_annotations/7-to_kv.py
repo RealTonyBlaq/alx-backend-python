@@ -12,4 +12,4 @@ from typing import List, Optional, Tuple
 
 def to_kv(k: str, v: Optional[int | float]) -> Tuple[str, float]:
     """ Returns a tuple """
-    return (k, float(v ** 2))
+    return (k, v ** 2)
