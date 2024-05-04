@@ -11,4 +11,5 @@ from typing import List, Optional, Tuple
 
 
 def to_kv(k: str, v: Optional[str | float]) -> Tuple[int, float]:
-    """ """
+    """ Returns a tuple """
+    return {}
