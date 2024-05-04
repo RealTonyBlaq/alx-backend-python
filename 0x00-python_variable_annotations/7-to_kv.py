@@ -10,6 +10,6 @@ should be annotated as a float.
 from typing import List, Optional, Tuple
 
 
-def to_kv(k: str, v: Optional[int | float]) -> Tuple[str, float]:
+def to_kv(k: str, v: Optional[int]) -> Tuple[str, float]:
     """ Returns a tuple """
     return (k, v ** 2)
