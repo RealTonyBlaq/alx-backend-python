@@ -7,7 +7,7 @@ The second element is the square of the int/float v and
 should be annotated as a float.
 """
 
-from typing import List, Optional
+from typing import List, Optional, Tuple
 
 
-def to_kv(k: str, v: Optional[str, float]) -> 
+def to_kv(k: str, v: Optional[str, float]) -> Ty
