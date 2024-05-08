@@ -13,4 +13,5 @@ import random
 async def wait_random(max_delay: int = 10):
     """ Waits for a random delay and returns it """
     rand = random.randint(0, max_delay)
-    await asyncio.sleep()
+    await asyncio.sleep(rand)
+    return rand
