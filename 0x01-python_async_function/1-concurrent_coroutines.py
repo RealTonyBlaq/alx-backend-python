@@ -6,6 +6,6 @@ the specified max_delay.
 """
 
 wait_random = __import__('./0-basic_async_syntax').wait_random
-from 0
 
 
+async def wait_n(n: int, max_delay: int)
