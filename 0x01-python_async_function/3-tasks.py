@@ -5,4 +5,5 @@ and returns a asyncio.Task
 """
 
 def task_wait_random(max_delay: int):
+    """ Returns an asyncio.Task """
     
