@@ -8,4 +8,5 @@ wait_n(n, max_delay), and returns total_time / n.
 import time
 
 
-def measure_time()
+def measure_time(n: int, max_delay: int) -> float:
+    """ """
