@@ -13,4 +13,5 @@ wait_n = __import__('1-concurrent_coroutines').wait_n
 
 def measure_time(n: int, max_delay: int) -> float:
     """ Measures runtime and returns a float total_time / n """
+    secs = time.process_time()
     
