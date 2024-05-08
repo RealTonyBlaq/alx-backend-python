@@ -5,4 +5,7 @@ as arguments that measures the total execution time for
 wait_n(n, max_delay), and returns total_time / n.
 """
 
-im
+import time
+
+
+def measure_time()
