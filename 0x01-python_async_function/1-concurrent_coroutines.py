@@ -12,7 +12,7 @@ from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-def wait_n(n: int, max_delay: int) -> List[float]:
+asdef wait_n(n: int, max_delay: int) -> List[float]:
     """ Spawns wait_random n times and saves the delay to a list """
     delays = [asyncio.run(wait_random(max_delay)) for _ in range(n)]
-    return sorted(delays)
+    return await asyncio.gathe
