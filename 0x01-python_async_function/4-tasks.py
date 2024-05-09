@@ -4,3 +4,12 @@ Take the code from wait_n and alter it into a new function task_wait_n.
 The code is nearly identical to wait_n except task_wait_random
 is being called.
 """
+
+import asyncio
+
+
+async def wait_n(n: int, max_delay: int) -> List[float]:
+    """ Spawns wait_random n times and saves the delay to a list """
+    delays = [wait_random(max_delay) for _ in range(n)]
+    tasks = await asyncio.gather(*delays)
+    return sorted(tasks)
