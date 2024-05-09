@@ -6,9 +6,11 @@ is being called.
 """
 
 import asyncio
+from typ
 
 
-task_wait_random = __import__('3-tasks').task
+task_wait_random = __import__('3-tasks').task_wait_random
+
 
 async def task_wait_n(n: int, max_delay: int) -> List[float]:
     """ Spawns wait_random n times and saves the delay to a list """
