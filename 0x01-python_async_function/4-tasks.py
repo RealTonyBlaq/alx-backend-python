@@ -8,8 +8,10 @@ is being called.
 import asyncio
 
 
-async def wait_n(n: int, max_delay: int) -> List[float]:
+
+
+async def task_wait_n(n: int, max_delay: int) -> List[float]:
     """ Spawns wait_random n times and saves the delay to a list """
-    delays = [wait_random(max_delay) for _ in range(n)]
+    delays = [task_wait_random(max_delay) for _ in range(n)]
     tasks = await asyncio.gather(*delays)
     return sorted(tasks)
