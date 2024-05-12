@@ -10,8 +10,8 @@ import asyncio
 import random
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator() -> AsyncGenerator[float, None, None]:
     """ Coroutine loops 10 times, yields a random number each time"""
     for i in range(10):
-        await asyncio.sleep(1.0)
+        await asyncio.sleep(1)
         yield random.uniform(0, 10)
