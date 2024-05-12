@@ -18,3 +18,4 @@ async def async_comprehension() -> List[float]:
     and returns a list of the numbers
     """
     numbers = [i async for i in generator()]
+    return numbers
