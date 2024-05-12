@@ -9,4 +9,4 @@ import asyncio
 import random
 
 
-as
+async def async_generator
