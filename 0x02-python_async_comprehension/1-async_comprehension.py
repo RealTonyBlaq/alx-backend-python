@@ -15,5 +15,6 @@ generator = __import__('0-async_generator').async_generator
 async def async_comprehension() -> List[float]:
     """
     collects 10 random numbers comprehensing over async_generator
-    
+    and returns a list of the numbers
     """
+    
