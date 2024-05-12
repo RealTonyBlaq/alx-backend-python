@@ -5,7 +5,6 @@ The coroutine will collect 10 random numbers using an async
 comprehensing over async_generator, then return the 10 random numbers
 """
 
-import asyncio
 from typing import List
 
 
