@@ -7,7 +7,7 @@ four times in parallel using asyncio.gather.
 import asyncio
 
 
-
+async_comprehension = __import__('')
 
 
 async def measure_runtime() -> float:
