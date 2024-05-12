@@ -7,4 +7,9 @@ four times in parallel using asyncio.gather.
 import asyncio
 
 
-async def measure_runtime()
+
+
+
+async def measure_runtime() -> float:
+    """ measures the total runtime and returns it """
+    
