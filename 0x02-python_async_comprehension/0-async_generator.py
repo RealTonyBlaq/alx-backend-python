@@ -7,7 +7,7 @@ then yield a random number between 0 and 10. Use the random module
 
 import asyncio
 import random
-import 
+from typing import Generator
 
 
 async def async_generator() -> 
