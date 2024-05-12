@@ -10,4 +10,5 @@ import random
 from typing import Generator
 
 
-async def async_generator() -> 
+async def async_generator() -> Generator[int]:
+    """ Coroutine loops 10 times, yields a random number each time """
