@@ -13,5 +13,5 @@ from typing import Generator
 async def async_generator() -> Generator[int, None, None]:
     """ Coroutine loops 10 times, yields a random number each time """
     for i in range(10):
-        yield random.randint()
-        await asy
+        yield random.randint(0, 10)
+        await asyncio.sleep(1.00)
